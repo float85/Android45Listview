@@ -43,6 +43,8 @@ public class AdapterContact extends BaseAdapter {
         tvName.setText(contactDemo.getName());
         tvPhone.setText(String.valueOf(contactDemo.getPhoneNumber()));
 
+       
+
 
         return view;
     }
